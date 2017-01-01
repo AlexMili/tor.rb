@@ -1,9 +1,11 @@
-Tor.rb: Onion Routing for Ruby
-==============================
+Tor.rb: Onion Routing for Ruby (tor2)
+=====================================
 
 This is a Ruby library for interacting with the [Tor][] anonymity network.
 
-* <http://github.com/bendiken/tor-ruby>
+**/ ! \ This repository were created to keep an updated version of this lib on the gem store. I am not the author or the maintainer even if PR are welcomed. The original project can be found at <https://github.com/dryruby/tor.rb> (previously <http://github.com/bendiken/tor-ruby>).**
+
+The name of this alternative gem is `tor2` to avoid confusion with the original.
 
 Features
 --------
@@ -22,7 +24,7 @@ Examples
 --------
 
     require 'rubygems'
-    require 'tor'
+    require 'tor2'
 
 ### Checking whether Tor is installed and which version it is
 
@@ -73,20 +75,20 @@ Installation
 The recommended installation method is via [RubyGems](http://rubygems.org/).
 To install the latest official release of Tor.rb, do:
 
-    % [sudo] gem install tor                 # Ruby 1.8.7+ or 1.9.x
-    % [sudo] gem install backports tor       # Ruby 1.8.1+
+    % [sudo] gem install tor2                 # Ruby 1.8.7+ or 1.9.x
+    % [sudo] gem install backports tor2       # Ruby 1.8.1+
 
 Download
 --------
 
 To get a local working copy of the development repository, do:
 
-    % git clone git://github.com/bendiken/tor-ruby.git
+    % git clone git://github.com/alexmili/tor.rb.git
 
 Alternatively, you can download the latest development version as a tarball
 as follows:
 
-    % wget http://github.com/bendiken/tor-ruby/tarball/master
+    % wget http://github.com/alexmili/tor.rb/tarball/master
 
 Author
 ------

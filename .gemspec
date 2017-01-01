@@ -5,8 +5,8 @@ Gem::Specification.new do |gem|
   gem.version            = File.read('VERSION').chomp
   gem.date               = File.mtime('VERSION').strftime('%Y-%m-%d')
 
-  gem.name               = 'tor'
-  gem.homepage           = 'http://cypherpunk.rubyforge.org/tor/'
+  gem.name               = 'tor2'
+  gem.homepage           = 'https://github.com/AlexMili/tor.rb'
   gem.license            = 'Public Domain' if gem.respond_to?(:license=)
   gem.summary            = 'Onion routing for Ruby.'
   gem.description        = 'Tor.rb is a Ruby library for interacting with the Tor anonymity network.'
